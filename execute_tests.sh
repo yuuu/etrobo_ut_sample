@@ -1,2 +1,2 @@
-./Debug/etrobo_ut
+./Debug/etrobo_ut -v
 
