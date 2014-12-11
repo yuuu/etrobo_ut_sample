@@ -24,8 +24,8 @@
 								<option id="gnu.c.compiler.option.debugging.level.1651569679" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1593802239" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/PCUnit&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/etrobo_ut_sample/api/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/etrobo_ut_sample/target/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/etrobo_ut/api/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/etrobo_ut/target/inc}&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.dialect.std.731531772" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.299127554" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>

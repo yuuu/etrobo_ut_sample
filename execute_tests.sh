@@ -1,1 +1,2 @@
-./Debug/etrobo_ut_sample
+./Debug/etrobo_ut
+
