@@ -1,6 +1,7 @@
 #include "PCUnit/PCUnit.h"
 #include "mock_ecrobot_interface.h"
 #include "direction.h"
+#include <string.h>
 
 static int initialize(void)
 {
@@ -33,6 +34,8 @@ static void test_update_0(void)
 	int call_count = 2;
 	nxt_motor_get_count_Expectation ex[call_count];
 	long direction = -1;
+
+  memset(ex, 0, sizeof(nxt_motor_get_count_Expectation) * call_count);
 
 	/*============================*/
 	/* mockで検証する内容を設定する */
@@ -69,6 +72,8 @@ static void test_update_plus90(void)
 	nxt_motor_get_count_Expectation ex[call_count];
 	long direction = -1;
 
+  memset(ex, 0, sizeof(nxt_motor_get_count_Expectation) * call_count);
+
 	/*============================*/
 	/* mockで検証する内容を設定する */
 	/*============================*/
@@ -103,6 +108,8 @@ static void test_update_minus90(void)
 	int call_count = 2;
 	nxt_motor_get_count_Expectation ex[call_count];
 	long direction = -1;
+
+  memset(ex, 0, sizeof(nxt_motor_get_count_Expectation) * call_count);
 
 	/*============================*/
 	/* mockで検証する内容を設定する */
